@@ -103,7 +103,7 @@ $( "#registrarse" ).click(function(event) {
 				$("#texto_registrar").html("Registrando, Un momento por favor...");
 			},
 			success: function (respuesta) {
-				$("#texto_registrar").html(respuesta);
+				$("#texto_ingresar").html(respuesta);
 				$("input[name='usuario']").val("");
 				$("input[name='nombre']").val("");
 				$("input[name='clave']").val("");
@@ -111,7 +111,11 @@ $( "#registrarse" ).click(function(event) {
 				$("input[name='edad']").val("");
 				$("input[name='correo']").val("");
 				$("input[name='foto']").val("");
-			},
+				$("#vista_previa").attr("src","");
+				$("#vista_previa").css("visibility","hidden");
+				$("#texto_registrar").html("");
+				mostrar_ingresar();
+			}, 
 			error: function () {
 				$("#texto_registrar").html("Error");
 			}
@@ -557,11 +561,12 @@ $("#boton_recuperar_clave").click(function (){
 				$("input[name='clave1']").val("");
 				$("input[name='clave2']").val(""); 
 			}
-			
+
 			if (respuesta==1){
 				
 				$("#contenedor_recuperar_clave").hide();
 				$("#contenedor_app").show();
+				$("#salir_recuperar_clave").hide();
 				$("#texto_ingresar").html("La contraseña se ha restaurado correctamente");
 			}
         }
@@ -571,7 +576,7 @@ $("#boton_recuperar_clave").click(function (){
 });
 
 
-///////////////////  Funcion guardar cambios de datos personales ///////////////////////////
+///////////////////////////////////  Funcion guardar cambios de datos personales /////////////////////////////////////////
 
 
 $("#boton_guardar_cambios").click(function (){

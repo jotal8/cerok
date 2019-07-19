@@ -12,3 +12,10 @@
 [19-Jul-2019 03:01:30 America/Bogota] PHP Notice:  Undefined index: telefono in /home/z3j9uu2mvd5s/public_html/jotalvaro.com/cerok/guardar_cambios.php on line 10
 [19-Jul-2019 03:01:30 America/Bogota] PHP Notice:  Undefined index: correo in /home/z3j9uu2mvd5s/public_html/jotalvaro.com/cerok/guardar_cambios.php on line 10
 [19-Jul-2019 03:01:30 America/Bogota] PHP Notice:  Undefined index: edad in /home/z3j9uu2mvd5s/public_html/jotalvaro.com/cerok/guardar_cambios.php on line 10
+[19-Jul-2019 03:56:10 America/Bogota] PHP Notice:  Undefined index: foto in /home/z3j9uu2mvd5s/public_html/jotalvaro.com/cerok/registro.php on line 48
+[19-Jul-2019 03:57:08 America/Bogota] PHP Notice:  Undefined variable: respuesta in /home/z3j9uu2mvd5s/public_html/jotalvaro.com/cerok/obtener_mensajes_enviados.php on line 33
+[19-Jul-2019 03:57:09 America/Bogota] PHP Notice:  Undefined variable: respuesta in /home/z3j9uu2mvd5s/public_html/jotalvaro.com/cerok/obtener_mensajes_recibidos.php on line 38
+[19-Jul-2019 04:00:23 America/Bogota] PHP Notice:  Undefined index: foto in /home/z3j9uu2mvd5s/public_html/jotalvaro.com/cerok/registro.php on line 48
+[19-Jul-2019 07:57:14 America/Bogota] PHP Notice:  Undefined variable: respuesta in /home/z3j9uu2mvd5s/public_html/jotalvaro.com/cerok/obtener_mensajes_recibidos.php on line 38
+[19-Jul-2019 08:05:32 America/Bogota] PHP Notice:  Undefined variable: respuesta in /home/z3j9uu2mvd5s/public_html/jotalvaro.com/cerok/obtener_mensajes_enviados.php on line 33
+[19-Jul-2019 08:05:44 America/Bogota] PHP Notice:  Undefined variable: respuesta in /home/z3j9uu2mvd5s/public_html/jotalvaro.com/cerok/obtener_mensajes_enviados.php on line 33

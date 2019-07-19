@@ -1,9 +1,30 @@
 .logo{
 	
+	width:300px;
 	border-radius:8px;
 	
 }
 
+@media only screen and (max-width: 400px) {
+ .logo{
+	
+	width:260px;
+	border-radius:8px;
+	
+}
+
+}
+
+
+@media only screen and (max-width: 350px) {
+ .logo{
+	
+	width:230px;
+	border-radius:8px;
+	
+}
+
+}
 
 #index{
 	

@@ -45,7 +45,7 @@ $newUrlData=$target_dir.$newName.".jpg";
 $estado_foto=false;
 
 // Check if image file is a actual image or fake image
-if($_POST['foto']=="") {
+if($_FILES['foto']=="") {
     
 	$sql_registro="INSERT INTO cerok (id,usuario,nombre,clave,telefono,edad,correo,fecha_creacion,foto) VALUES ('".$count."','".$_POST['usuario']."','".$_POST['nombre']."','".$password."','".$_POST['telefono']."','".$_POST['edad']."','".$_POST['correo']."','".$date."','img/usuario.png')";
 
